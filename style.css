@@ -32,24 +32,16 @@ nav {
   font-weight: 500;
   font-size: 14px;
 }
+
 ul{
+  display: flex;
   list-style: none;
 }
-.top-nav ul {
-  display: flex;
+
+.top-nav-left ul {
   padding: 0;
-}
-
-.top-nav li {
-  margin-right: 24px;
-}
-
-.top-nav li:last-child{
-  margin-right: 0px;
-}
-
-.left-list{
-  margin-right: 200px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -62,16 +54,10 @@ ul{
 }
 
 .main-nav-list{
-  display: flex;
   padding: 0;
-}
-
-.main-nav li {
-  margin-right: 39px;
-}
-
- .main-nav li:last-child {
-  margin-right: 0px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
