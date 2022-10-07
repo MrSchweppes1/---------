@@ -170,14 +170,15 @@ a {
   color: #424242;
 }
 
-.cont-card-60days {
+.grey-background {
   background: #eff2f5;
-  height: 775px;
 }
 
 .card-without-interest {
+  height: 775px;
   width: 1140px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -217,13 +218,13 @@ a {
   font-weight: 500;
   font-size: 30px;
   color: #212121;
-  border-bottom: 1px solid #3A95FF;
+  border-bottom: 1px solid #3a95ff;
   padding-bottom: 14px;
   margin-bottom: 6px;
   margin-top: 12px;
 }
 
-.info p{
+.info p {
   width: 157px;
   text-align: center;
   margin-top: 0;
@@ -233,7 +234,7 @@ a {
   color: #424242;
 }
 
-.btns{
+.btns {
   width: 440px;
   display: flex;
   justify-content: space-between;
@@ -246,7 +247,7 @@ a {
   padding: 17px 29px;
 }
 
-.cards-block{
+.cards-block {
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -271,8 +272,64 @@ a {
   margin: 34px;
 }
 
-.card img{
+.card img {
   position: absolute;
   right: 34px;
   bottom: 34px;
+}
+
+.get-card {
+  width: 1140px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-card h2 {
+  margin: 70px 0;
+  width: 1140px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+
+.algorithm {
+  width: 872px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.algorithm-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.algorithm-item p {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #212121;
+}
+
+footer {
+  width: 1140px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer h4 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #424242;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #424242;
+  margin-top: 22px;
 }
