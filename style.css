@@ -103,7 +103,7 @@ a {
   padding: 17px 26px;
 }
 
-.banner-btn-info {
+.btn-info {
   border: 1px solid #3a95ff;
   border-radius: 3px;
   padding: 17px 51px;
@@ -119,6 +119,7 @@ a {
 
 .best-offers {
   width: 1140px;
+  height: 1010px;
 }
 .best-offers h2 {
   font-weight: 600;
@@ -134,15 +135,19 @@ a {
   margin: 0px 0px 70px;
 }
 
-/* .offers{
+.offers {
   display: flex;
-} */
+  width: 1140px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .offer {
+  box-sizing: border-box;
   justify-content: space-between;
+  margin-bottom: 62px;
   width: 555px;
   height: 300px;
-
   background: #eff2f5;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
@@ -150,6 +155,7 @@ a {
 }
 
 .txt {
+  margin: 34px 0 0 34px;
 }
 
 .txt h3 {
@@ -162,4 +168,111 @@ a {
   font-weight: 400;
   font-size: 18px;
   color: #424242;
+}
+
+.cont-card-60days {
+  background: #eff2f5;
+  height: 775px;
+}
+
+.card-without-interest {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-60days {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 500px;
+
+  background: #e0e5ea;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  align-items: flex-start;
+  padding-left: 99px;
+}
+
+.heading {
+  display: flex;
+}
+.heading h2 {
+  font-weight: 600;
+  font-size: 38px;
+  color: #212121;
+  margin-right: 50px;
+}
+
+.info {
+  display: flex;
+  width: 540px;
+  justify-content: space-between;
+}
+
+.info h3 {
+  width: 157px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  color: #212121;
+  border-bottom: 1px solid #3A95FF;
+  padding-bottom: 14px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.info p{
+  width: 157px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+
+.btns{
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.issue-card {
+  color: white;
+  background-color: #3a95ff;
+  border-radius: 3px;
+  padding: 17px 29px;
+}
+
+.cards-block{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  font-weight: 600;
+  font-size: 26px;
+  width: 360px;
+  height: 235px;
+
+  background: #f7f7f7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-bottom: #3a95ff solid 5px;
+}
+
+.card h3 {
+  margin: 34px;
+}
+
+.card img{
+  position: absolute;
+  right: 34px;
+  bottom: 34px;
 }
